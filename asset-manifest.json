@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dad-maac-f-24.js/static/css/main.a8fcf3a1.css",
+    "main.js": "/dad-maac-f-24.js/static/js/main.e48e0cb3.js",
+    "index.html": "/dad-maac-f-24.js/index.html",
+    "main.a8fcf3a1.css.map": "/dad-maac-f-24.js/static/css/main.a8fcf3a1.css.map",
+    "main.e48e0cb3.js.map": "/dad-maac-f-24.js/static/js/main.e48e0cb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8fcf3a1.css",
+    "static/js/main.e48e0cb3.js"
+  ]
+}
