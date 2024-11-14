@@ -2,24 +2,21 @@
 import React from 'react';
 import './Exhibit.css';
 
-const Exhibit = ({ title, description, embedType, embedUrl, links }) => (
-  <div className="exhibit">
-
-    <div className="content">
+const Exhibit = ({ title, description, embedType, embedUrls = [], links = [] }) => {
+  return (
+    <div className="exhibit">
       <h2>{title}</h2>
       <p>{description}</p>
-      {embedType === "spotify" && (
+      {embedType === 'spotify' && embedUrls.map((url, index) => (
         <iframe
-          style={{ borderRadius: '12px' }}
-          src={embedUrl}
-          width="100%"
-          height="352"
+          key={index}
+          src={url}
+          width="300"
+          height="380"
           frameBorder="0"
-          allowFullScreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
+          allow="encrypted-media"
         ></iframe>
-      )}
+      ))}
       {embedType === "soundcloud" && (
         <iframe
           width="100%"
@@ -27,18 +24,18 @@ const Exhibit = ({ title, description, embedType, embedUrl, links }) => (
           scrolling="no"
           frameBorder="no"
           allow="autoplay"
-          src={embedUrl}
+          src={embedUrls[0]}
         ></iframe>
       )}
-      <div>
+      <div className="links">
         {links.map((link, index) => (
-          <a key={index} href={link.href} className="link" target="_blank" rel="noopener noreferrer">
+          <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="link">
             {link.text}
           </a>
         ))}
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Exhibit;
