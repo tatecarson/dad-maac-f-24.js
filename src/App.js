@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import { useSwipeable } from 'react-swipeable';
+import LandingPage from './components/LandingPage';
 import Header from './components/Header';
 import Exhibit from './components/Exhibit';
 import './styles.css';
@@ -55,9 +57,16 @@ const App = () => {
   });
 
   return (
-    <div {...handlers} className="swipe-container">
-      <Header />
-      <Exhibit {...exhibits[currentIndex]} />
+    <div {...handlers} className="app">
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/exhibits" element={
+          <div>
+            <Header />
+            <Exhibit {...exhibits[currentIndex]} />
+          </div>
+        } />
+      </Routes>
     </div>
   );
 };

@@ -8,9 +8,9 @@ const Header = () => (
     <div className="music-note note2">♫</div>
     <div className="music-note note3">♩</div>
     <div className="music-note note4">♬</div>
-    <h1>Digital Music Museum</h1>
+    <h1>Sound Design Student Music Exhibit</h1>
     <br></br>
-    <h2>Swipe for more music!</h2>
+    <h2>Swipe for more music ➡️</h2>
   </div>
 );
 

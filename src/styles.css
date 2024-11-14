@@ -29,6 +29,11 @@ body {
   }
 }
 
+.app {
+  position: relative;
+  overflow: hidden;
+}
+
 .swipe-container {
   position: relative;
 }

@@ -11,7 +11,7 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.exhibit:hover {
+/* .exhibit:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -29,7 +29,7 @@
 
 .qr-code:hover {
     animation: spin 10s linear infinite;
-}
+} */
 
 @keyframes spin {
     from {
