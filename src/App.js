@@ -38,18 +38,18 @@ const exhibits = [
     ],
     links: []
   },
-  {
-    title: "DAD 222: Beats Project",
-    description: "A collection of eight one-minute tracks showcasing student work in beat-making and sampling.",
-    embedType: "soundcloud",
-    embedUrls: [
-      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tate-carson-1/sets/dad-222-fall-24-sampling-beats-project&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    ],
-    links: []
-  },
+  // {
+  //   title: "DAD 222: Beats Project",
+  //   description: "A collection of eight one-minute tracks showcasing student work in beat-making and sampling.",
+  //   embedType: "soundcloud",
+  //   embedUrls: [
+  //     "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tate-carson-1/sets/dad-222-fall-24-sampling-beats-project&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  //   ],
+  //   links: []
+  // },
   {
     title: "DAD 422: Binaural Project",
-    description: "An exploration into binaural audio production and spatial sound design.",
+    description: "Abbie Pillen and Hunter Knecht’s projects for DAD 422: Audio Production III are immersive one-minute soundscapes for binaural listening.",
     embedType: "soundcloud",
     embedUrls: [
       "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tate-carson-1/sets/binaural-project&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -58,7 +58,7 @@ const exhibits = [
   },
   {
     title: "Video Game Music Collection",
-    description: "Original video game music compositions.",
+    description: "This playlist features video game music compositions by Jason Kaiser and Karl Lexvold. Jason’s tracks—Rise of Boudica, Crows of Teutoburg, and The Migration—were created for an Age of Empires 2 mod.  Karl’s piece, Unto Thee…, originally composed for a Dungeons & Dragons campaign, serves as energetic combat music.",
     embedType: "soundcloud",
     embedUrls: [
       "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1906349987&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
