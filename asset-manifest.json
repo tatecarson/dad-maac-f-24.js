@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dad-maac-f-24.js/static/css/main.0c2f1498.css",
-    "main.js": "/dad-maac-f-24.js/static/js/main.b68b075f.js",
+    "main.js": "/dad-maac-f-24.js/static/js/main.d77af5fa.js",
     "index.html": "/dad-maac-f-24.js/index.html",
     "main.0c2f1498.css.map": "/dad-maac-f-24.js/static/css/main.0c2f1498.css.map",
-    "main.b68b075f.js.map": "/dad-maac-f-24.js/static/js/main.b68b075f.js.map"
+    "main.d77af5fa.js.map": "/dad-maac-f-24.js/static/js/main.d77af5fa.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2f1498.css",
-    "static/js/main.b68b075f.js"
+    "static/js/main.d77af5fa.js"
   ]
 }
