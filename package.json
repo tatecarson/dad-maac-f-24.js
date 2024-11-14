@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
-  "homepage": "https://tatecarson.github.io/dad-maac-f-24.js",
+  "homepage": "https://tatecarson.github.io/dad-maac-f-24.js/",
   "dependencies": {
     "qrcode.react": "^4.1.0",
     "react": "^18.0.0",
